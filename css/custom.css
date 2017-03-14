@@ -28,6 +28,7 @@ header {
     min-height: auto;
     text-align: center;
     color: black;
+    background-image: url('../pic.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -95,7 +96,7 @@ header .header-content .header-content-inner p {
 
 .intro {
 	color: #fff;
-    background-color: pink;
+    background-color: white;
     padding: 70px 0;
     text-align: center;
 }
@@ -168,8 +169,8 @@ header .header-content .header-content-inner p {
 
 .page-footer .contact {
 	padding: 100px 0;
-	background-color: pink;
-	color: #fff;
+	background-color: black;
+	color: pink;
 	}
 
 .page-footer .contact p {
