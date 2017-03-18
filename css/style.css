@@ -139,6 +139,9 @@ p {
 #twitter{
   color: #c155a0;
 }
+#instagram{
+  color: #d0682e;
+}
 #home{
   color: #669bd9;
 }
@@ -161,6 +164,17 @@ p {
   position:absolute;
 }
 
+@media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+       html, body {
+         width: auto !important;
+         overflow-x: hidden !important;
+       }
+   }
+
+   @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+       .nav-list li{display: none}
+   }
+
 @media screen and (max-width: 1280px) {
     .text {
       position: absolute;
@@ -168,7 +182,7 @@ p {
       text-align: center;
       margin-left: auto;
       margin-right: auto;
-      margin-top: 20vw;
+      margin-top: 20%;
       left: 0;
       right: 0;
       color: #f1f1f3;
@@ -183,7 +197,7 @@ p {
       text-align: center;
       margin-left: auto;
       margin-right: auto;
-      margin-top: 20vw;
+      margin-top: 20%;
       left: 0;
       right: 0;
       color: #f1f1f3;
@@ -208,7 +222,7 @@ p {
       text-align: center;
       margin-left: auto;
       margin-right: auto;
-      margin-top: 10vw;
+      margin-top: 20%;
       left: 0;
       right: 0;
       color: #f1f1f3;
@@ -220,9 +234,13 @@ p {
       padding: 10px;
   }
     .about{
+      font-size:  350%;
+      color: #f1f1f3;
+      position: absolute; 
+      margin-left: 20vw;
+      margin-right: 20vw;
       margin-top: 150vw;
-      font-size: 175%;
-      margin-left: 10vw;
-      margin-right: 10vw;
+      margin-bottom: 20vw;
+      font-family: "Raleway";
     }
 }
