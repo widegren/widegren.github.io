@@ -84,24 +84,13 @@ canvas{
 
 /* ---- Components ---- */
 
-#H {
-  width: 151.05px;
-  height: 188.85px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10vw;
-  left: 0;
-  right: 0;
-  position:absolute;
-}
-
 .text {
   position: absolute;
   font-size: 300%;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 25vw;
+  margin-top: 10vw;
   left: 0;
   right: 0;
   color: #f1f1f3;
@@ -154,23 +143,13 @@ p {
 }
 
 @media screen and (max-width: 1280px) {
-    #H {
-      width: 125.5px;
-      height: 157px;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 5vw;
-      left: 0;
-      right: 0;
-      position:absolute;
-  }
     .text {
       position: absolute;
       font-size: 230%;
       text-align: center;
       margin-left: auto;
       margin-right: auto;
-      margin-top: 25vw;
+      margin-top: 20vw;
       left: 0;
       right: 0;
       color: #f1f1f3;
@@ -179,29 +158,19 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-    #H {
-      width: 94.125px;
-      height: 117.75px;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 10vw;
-      left: 0;
-      right: 0;
-      position:absolute;
-  }
     .text {
       position: absolute;
       font-size: 230%;
       text-align: center;
       margin-left: auto;
       margin-right: auto;
-      margin-top: 50vw;
+      margin-top: 20vw;
       left: 0;
       right: 0;
       color: #f1f1f3;
       font-family: "Raleway";
   }
-  #henriktran{
+  #emeliewidegren{
     font-size: 200%;
     padding: 10px;
   }
@@ -214,30 +183,20 @@ p {
 }
 
 @media screen and (max-width: 375px) {
-    #H {
-      width: 94.125px;
-      height: 117.75px;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 5vw;
-      left: 0;
-      right: 0;
-      position:absolute;
-  }
     .text {
       position: absolute;
       font-size: 230%;
       text-align: center;
       margin-left: auto;
       margin-right: auto;
-      margin-top: 50vw;
+      margin-top: 10vw;
       left: 0;
       right: 0;
       color: #f1f1f3;
       font-family: "Raleway";
       padding: 10px;
   }
-    #henriktran{
+    #emeliewidegren{
       font-size: 200%;
       padding: 10px;
   }
