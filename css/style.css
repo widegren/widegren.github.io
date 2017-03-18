@@ -26,47 +26,20 @@ li{list-style:none}
    My CSS
    ========================================================================== */
 #menu {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
+  position: fixed; 
+  top: 0; 
+  color: white;
+  width: 100%; 
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  z-index: 200
 }
-
-ul.topnav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  font-family: "Raleway";
-  top: 0;
-  width: 100%;
-}
-
-ul.topnav li {float: right;}
-
-ul.topnav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-ul.topnav li a:hover:not(.active) {color: #111;}
-
-ul.topnav li a.active {color: #4CAF50;}
-
-ul.topnav li.right {float: right;}
-
-@media screen and (max-width: 600px){
-    ul.topnav li.right, 
-    ul.topnav li {float: none;}
-}
+#menu-container {margin: 0 auto; margin-right: 20px}
+.nav-list {float: right;}
+.nav-list a {text-decoration: none; color:#464646;}
+.nav-list li {height: 49px; display: inline-block; font-size: 24px; font-family: 'Raleway'; margin-left: 20px; margin-top: 10px }
 
 /* ---- base ---- */
 
@@ -164,6 +137,9 @@ p {
 }
 #portfolio{
   color: #c155a0;
+}
+#home{
+  color: #669bd9;
 }
 .about{
   font-size:  350%;
