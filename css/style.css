@@ -38,7 +38,7 @@ li{list-style:none}
 }
 #menu-container {margin: 0 auto; margin-right: 20px}
 .nav-list {float: right;}
-.nav-list a {text-decoration: none; color:#464646;}
+.nav-list a {text-decoration: none; color: white;}
 .nav-list li {height: 49px; display: inline-block; font-size: 24px; font-family: 'Raleway'; margin-left: 20px; margin-top: 10px }
 
 /* ---- base ---- */
@@ -125,6 +125,7 @@ p {
 }
 .links{
     font-size: 75%;
+    text-indent: 5px;
 }
 #linkedin{
   color: #669bd9;
@@ -133,9 +134,9 @@ p {
   color: #962a2a;
 }
 #about{
-  color: #4c9f7f;
+  color: white;
 }
-#portfolio{
+#twitter{
   color: #c155a0;
 }
 #home{
@@ -149,7 +150,7 @@ p {
   margin-right: 20vw;
   margin-top: 50vw;
   margin-bottom: 20vw;
-  font-family: "Work Sans";
+  font-family: "Raleway";
 }
 .goup{
   color: #fff;
